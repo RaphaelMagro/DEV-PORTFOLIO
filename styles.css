@@ -1,0 +1,134 @@
+/* Custom CSS for Modern Portfolio - 30% of styling */
+
+/* Dark theme with red accents */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Landing section */
+#landing {
+    background-color: #1a1a1a;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#landing .portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#landing h1 {
+    font-size: 3rem;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333333;
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0000;
+}
+
+/* Sections */
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    color: #ff0000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* About section */
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Tools section */
+#tools .tool {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#tools .tool img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#tools .tool h5 {
+    color: #ff0000;
+}
+
+/* Projects section */
+#projects .card {
+    background-color: #333333;
+    border: 1px solid #ff0000;
+    margin-bottom: 30px;
+}
+
+#projects .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#projects .card-title {
+    color: #ff0000;
+}
+
+#projects .btn {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+}
+
+#projects .btn:hover {
+    background-color: #cc0000;
+}
+
+/* Contact section */
+#contact .social-links {
+    text-align: center;
+}
+
+#contact .social-links a {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+#contact .social-links a:hover {
+    color: #ff0000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #landing h1 {
+        font-size: 2rem;
+    }
+    #landing .portrait {
+        width: 150px;
+        height: 150px;
+    }
+    #tools .tool img {
+        width: 60px;
+        height: 60px;
+    }
+}
