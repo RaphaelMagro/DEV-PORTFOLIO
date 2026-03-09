@@ -15,8 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-landing">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="Logo" height="40" class="me-2">
-                <span class="brand-text">RM</span>
+                <img src="images/logo.png" alt="Logo" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,9 +27,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tools.html">Tools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
@@ -69,71 +65,125 @@
         </div>
     </section>
 
-    <!-- Vision Section -->
-    <section class="vision-section">
+    <!-- Tools -->
+    <section class="page-hero">
         <div class="container">
-            <h2 class="section-header-title" data-aos="fade-up">My Vision</h2>
+            <h1 class="page-title" data-aos="fade-up">Tools & Technologies</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">Technologies I use to build amazing projects</p>
+        </div>
+    </section>
+
+    <!-- Tools Grid -->
+    <section class="tools-grid-section">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="vision-card">
-                        <div class="vision-icon">
-                            <i class="fas fa-rocket"></i>
+                <!-- HTML -->
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML</h3>
                         </div>
-                        <h3>Innovation</h3>
-                        <p>Leading innovative projects in full-stack development, bringing cutting-edge solutions to real-world problems.</p>
+                        <div class="tool-card-back">
+                            <p>Semantic markup and modern HTML5 for structured, accessible web pages</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="vision-card">
-                        <div class="vision-icon">
-                            <i class="fas fa-users"></i>
+
+                <!-- CSS -->
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS</h3>
                         </div>
-                        <h3>Community</h3>
-                        <p>Contributing to open-source communities and sharing knowledge with developers around the world.</p>
+                        <div class="tool-card-back">
+                            <p>Advanced CSS3, Flexbox, Grid, and animations for stunning designs</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="vision-card">
-                        <div class="vision-icon">
-                            <i class="fas fa-graduation-cap"></i>
+
+                <!-- JavaScript -->
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-js-square"></i>
+                            <h3>JavaScript</h3>
                         </div>
-                        <h3>Mentorship</h3>
-                        <p>Mentoring the next generation of developers and fostering a culture of continuous learning.</p>
+                        <div class="tool-card-back">
+                            <p>ES6+, DOM manipulation, and modern JavaScript for interactive experiences</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- React -->
+                <div class="col-md-4 col-sm-6 my-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-react"></i>
+                            <h3>React</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Components, hooks, and state management for dynamic applications</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bootstrap -->
+                <div class="col-md-4 col-sm-6 my-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-bootstrap"></i>
+                            <h3>Bootstrap</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Responsive grid system and components for rapid UI development</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="col-md-4 col-sm-6 my-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-node-js"></i>
+                            <h3>Node.js</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Server-side JavaScript for building scalable backend applications</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Git -->
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fab fa-git-alt"></i>
+                            <h3>Git</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Version control and collaboration for managing projects efficiently</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VS Code -->
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="tool-card">
+                        <div class="tool-card-front">
+                            <i class="fas fa-code"></i>
+                            <h3>VS Code</h3>
+                        </div>
+                        <div class="tool-card-back">
+                            <p>Powerful code editor with extensions for enhanced development</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Skills Highlight -->
-    <section class="skills-section">
-        <div class="container">
-            <h2 class="section-header-title" data-aos="fade-up">Skills & Expertise</h2>
-            <div class="row">
-                <div class="col-md-6" data-aos="fade-up">
-                    <div class="skill-item">
-                        <h4>Frontend Development</h4>
-                        <p>HTML, CSS, JavaScript, React, Bootstrap - Creating responsive and interactive user interfaces</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Backend Development</h4>
-                        <p>Node.js, RESTful APIs, Database Design - Building robust server-side solutions</p>
-                    </div>
-                </div>
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="skill-item">
-                        <h4>Tools & Technologies</h4>
-                        <p>Git, VS Code, Problem Solving - Using best practices and modern development tools</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Web Design</h4>
-                        <p>UI/UX Principles, Responsive Design, Animations - Crafting beautiful digital experiences</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="container text-center">
